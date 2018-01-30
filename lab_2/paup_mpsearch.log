@@ -1,0 +1,38 @@
+
+P A U P *
+Version 4.0a (build 159) for Unix/Linux (built on Nov 17 2017 at 11:35:17)
+Tue Jan 30 10:06:52 2018
+
+        -----------------------------NOTICE-----------------------------
+          This is an alpha-test version that is still changing rapidly.
+          It will expire on 1 Apr 2018.
+        
+          Please report bugs to dave@phylosolutions.com
+        ----------------------------------------------------------------
+
+
+paup> AllTrees
+
+Error(#531): Exhaustive search is not allowed for more than 12 taxa (unrooted trees). The number of
+             trees would exceed the maximum that can be represented as a 32-bit integer value.
+
+paup> BandB
+
+Branch-and-bound search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 382 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        198 characters are constant
+        61 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 123
+    Gaps are treated as "missing"
+  Initial upper bound: unknown (compute heuristically)
+  Addition sequence: furthest
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+

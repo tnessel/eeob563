@@ -1,0 +1,54 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Jan 30 10:23:50 2018]
+[!
+>Data file = cob_aa.nxs
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 382 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        208 characters are constant
+>        64 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 110
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 1000
+>    Starting seed = generated automatically
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search completed
+>  Total number of rearrangements tried = 2276696
+>  Score of best tree(s) found = 543
+>  Number of trees retained = 4
+>  Time used = 1.30 sec (CPU time = 1.29 sec)
+]
+	Translate
+		1 Whale,
+		2 Armadillo,
+		3 Rabbit,
+		4 Mouse,
+		5 Tenrec,
+		6 Tree_shrew,
+		7 Opossum,
+		8 Wallaby,
+		9 Bandicoot,
+		10 Hedgehog,
+		11 Human,
+		12 Elephant,
+		13 Sloth
+		;
+tree 'PAUP_1' = [&U] (1:21,((((2:22,5:34):11,((4:20,(7:19,(8:13,9:21):11):26):14,10:45):14):10,(3:26,6:37):9):10,((11:42,13:45):16,12:41):20):16);
+tree 'PAUP_2' = [&U] (1:23,((((2:24,5:32):14,(3:28,6:35):9):9,((11:40,13:47):15,12:42):23):8,((4:20,(7:19,(8:13,9:21):11):26):14,10:45):9):16);
+tree 'PAUP_3' = [&U] (1:24,((((2:25,5:31):12,(3:28,6:35):11):11,((4:21,(7:19,(8:13,9:21):11):25):13,10:46):10):9,((11:42,13:45):15,12:42):19):15);
+tree 'PAUP_4' = [&U] (1:23,((((2:25,5:31):12,(3:28,6:35):11):11,((4:22,(7:19,(8:13,9:21):11):24):14,10:45):10):8,(11:37,(12:46,13:46):15):22):14);
+End;
