@@ -1,0 +1,22 @@
+#NEXUS 
+
+[!
+FASTA file "~/eeob63/eeob563/mass3.fasta"
+  (imported Mon Feb  5 15:09:17 2018)
+]
+Begin data;
+    Dimensions ntax=10 nchar=30;
+    Format datatype=nucleotide gap=- missing=?;
+    Matrix
+Dolphin      atgacgaacatccgaaattcacaccctctt
+Hippopotamus atgacaaacatccgaaaatctcacccacta
+Sheep        atgacaaacatccgaaaatcccacccactg
+Camel        atgacaaacatccgaaaatcacacccacta
+Sperm_whale  atgacaaacatccgaaaatcacacccacta
+Blue_whale   atgacaaacatccgaaaatcacacccacta
+Pig          atgacaaacatccgaaaatcacacccacta
+Cow          atgacaaacattcgaaagtcccacccacta
+Giraffe      atgataaacatccgaaagtcccacccacta
+Goat         atgacaaacatccgaaagtcccacccatta
+    ;
+End;
